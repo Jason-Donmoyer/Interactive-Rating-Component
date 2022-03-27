@@ -24,8 +24,8 @@
   /* Colors */
   --orange: hsl(25, 97%, 53%);
   --white: hsl(0, 0%, 100%);
-  --light-grey: hsl(217, 12%, 63%);
-  --medium-grey: hsl(216, 12%, 54%);
+  --light-gray: hsl(217, 12%, 63%);
+  --medium-gray: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
 
@@ -53,6 +53,92 @@ html {
 
 /* Body */
 .main-container {
+  height: 100vh;
   font-family: var(--main-font-family);
   font-weight: var(--fw-normal);
+  background-color: var(--very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Card */
+.card-container {
+  height: 24rem;
+  width: 21.8rem;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  background-color: var(--dark-blue);
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+
+
+/* Star Icon */
+.star-icon {
+  height: 2.666667rem;
+  width: 2.666667rem;
+  border-radius: 50%;
+  margin-bottom: 1.066667rem;
+  background-color: var(--dark-blue);
+  background-image: url(../images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* H1 */
+.main-heading {
+  margin-bottom: 0.666667rem;
+  font-size: 1.6rem;
+  font-weight: var(--fw-bold);
+  line-height: 2rem;
+  color: var(--white);
+}
+
+
+/* p */
+.main-copy {
+  font-size: 0.933333rem;
+  line-height: 1.466667rem;
+  color: var(--light-gray);
+}
+
+
+/* Rating Buttons Container */
+.rating-btn-container {
+  height: 2.8rem;
+  /* width: ; */
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Rating Buttons */
+.rating-btn {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  background-color: var(--dark-blue);
+  text-align: center;
+  line-height: 3rem;
+  color: var(--medium-gray);
+}
+
+
+/* Submit Button */
+.submit-btn {
+  height: 3rem;
+  width: 100%;
+  padding: 0rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--orange);
+  text-transform: uppercase;
+  font-size: 0.933333rem;
+  line-height: 1.181333rem;
+  letter-spacing: 0.124667rem;
+  color: var(--white);
 }
