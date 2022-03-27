@@ -142,3 +142,14 @@ html {
   letter-spacing: 0.124667rem;
   color: var(--white);
 }
+
+
+/* ACTIVE STATES */
+
+/* Rating Buttons Background */
+.active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+
