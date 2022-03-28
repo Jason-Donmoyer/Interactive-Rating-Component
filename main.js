@@ -5,6 +5,7 @@ let ratingNumber = '';
 
 
 
+
 // Event Listeners for rating buttons
 for (let i = 0; i < ratingBtns.length; i++) {
 	// Loop through buttons to add event listeners
@@ -15,6 +16,7 @@ for (let i = 0; i < ratingBtns.length; i++) {
 		}
 		// Store number of button clicked
 		ratingNumber = ratingBtns[i].innerText;
+		localStorage.setItem('rating', ratingNumber);
 		// Add active class to button clicked
 		ratingBtns[i].classList.add('active');
 	});	
@@ -34,4 +36,5 @@ submitBtn.onclick = function() {
 		link.click();
 		link.remove();
 	}   
+	
 }
