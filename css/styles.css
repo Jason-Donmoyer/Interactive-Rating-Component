@@ -153,3 +153,48 @@ html {
 }
 
 
+/********************************/
+    /* THANK YOU PAGE STYLES */
+/********************************/
+
+
+/* Thank You Card Container */
+.thank-you-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* Thank You Image */
+.thank-you-img {
+  height: 6.4rem;
+  width: 9.6rem;
+  margin-top: 0.666667rem;
+  margin-bottom: 1.6rem;
+  background-image: url(../images/illustration-thank-you.svg);
+  background-size: contain;
+}
+
+
+/* Selection Container */
+.selection-container {
+  height: 2.133333rem;
+  width: 11.2rem;
+  margin-bottom: 1.6rem;
+  background-color: var(--dark-blue);
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Selection p */
+.selection-copy {
+  font-size: 0.933333rem;
+  line-height: 1.466667rem;
+  color: var(--orange);
+}
+
