@@ -278,6 +278,44 @@ html {
     color: var(--orange);
   }
 
+
+  /* THANK YOU PAGE */
+
+  /* Thank You Card Container */
+  .thank-you-card-container {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+
+  /* Thank You Imange */
+  .thank-you-img {
+    height: 7.2rem;
+    width: 10.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2.133333rem;
+  }
+
+
+  /* Selection Container */
+  .selection-container {
+    width: 12.866667rem;
+    margin-bottom: 2.133333rem;
+  }
+
+
+  /* Selection p */
+  .selection-copy {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+
+  /* Thank You h1*/
+  .thank-you-heading {
+    height: 2.866667rem;
+    font-size: 1.866667rem;
+  }
   
 
 }
