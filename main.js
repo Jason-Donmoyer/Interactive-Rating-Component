@@ -4,8 +4,6 @@ const submitBtn = document.getElementById('submit-btn');
 let ratingNumber = '';
 
 
-
-
 // Event Listeners for rating buttons
 for (let i = 0; i < ratingBtns.length; i++) {
 	// Loop through buttons to add event listeners
