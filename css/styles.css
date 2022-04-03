@@ -198,3 +198,62 @@ html {
   color: var(--orange);
 }
 
+
+/********************************/
+       /* MEDIA QUERIES */
+/********************************/
+
+
+/* Tablet and larger */
+@media screen and (min-width: 480px) {
+
+
+  /* Card Container */
+  .card-container {
+    height: 27.733333rem;
+    width: 27.466667rem;
+    padding: 2.133rem;
+  }
+
+
+  /* Star Icon */
+  .star-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  /* h1 */
+  .main-heading {
+    height: 2.866667rem;
+    margin-bottom: 0.466667rem;
+    font-size: 1.866667rem;
+    line-height: 2.333333rem;
+  }
+
+
+  /* p */
+  .main-copy {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
+
+  /* Rating Buttons Container */
+  .rating-btn-container { 
+    height: 3.4rem;
+    margin-bottom: 2.133333rem;
+  } 
+  
+
+  /* Rating Buttons */
+  .rating-btn {
+    height: 3.4rem;
+    width: 3.4rem;
+    font-size: 1.066667rem;
+    line-height: 3.6rem;
+  }
+
+
+}
