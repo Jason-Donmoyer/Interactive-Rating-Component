@@ -256,4 +256,28 @@ html {
   }
 
 
+  /* ACTIVE STATES */
+
+  /* Rating Buttons */
+  .rating-btn:hover {
+    cursor: pointer;
+    background-color: var(--orange);
+    color: var(--white);
+  }
+
+  /* Button Active State */
+  .active {
+    background-color: var(--medium-gray);
+  }
+
+
+  /* Submit Button */
+  .submit-btn:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--orange);
+  }
+
+  
+
 }
