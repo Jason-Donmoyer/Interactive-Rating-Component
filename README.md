@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jason-Donmoyer/Interactive-Rating-Component)
-- Live Site URL: [Add live site URL here](https://jason-donmoyer.github.io/Interactive-Rating-Component/)
+- Solution URL: [github.com/Jason-Donmoyer/Interactive-Rating-Component](https://github.com/Jason-Donmoyer/Interactive-Rating-Component)
+- Live Site URL: [jason-donmoyer.github.io/Interactive-Rating-Component](https://jason-donmoyer.github.io/Interactive-Rating-Component/)
 
 ## My process
 
@@ -53,5 +53,5 @@ This is the first time that I used localStorage to transfer data from one page t
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jason-Donmoyer)
-- Twitter - [@yourusername](https://twitter.com/TheDuke523)
+- Frontend Mentor - [@Jason-Donmoyer](https://www.frontendmentor.io/profile/Jason-Donmoyer)
+- Twitter - [@TheDuke523](https://twitter.com/TheDuke523)
